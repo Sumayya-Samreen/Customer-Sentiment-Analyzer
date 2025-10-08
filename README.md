@@ -1,45 +1,63 @@
 
 # Customer Sentiment Analyzer
 
-Customer Sentiment Analyzer is an interactive Streamlit application that transforms raw CSV datasets into insightful visualizations using natural language processing and sentiment analysis. It enables real-time exploration of customer sentiment, dynamic word clouds, and interactive dashboards to uncover trends and actionable insights.
+## Description
+The Customer Sentiment Analyzer is an interactive Streamlit application that enables users to upload CSV datasets and instantly perform advanced sentiment analysis and word cloud visualizations. It is designed for quick insights into customer feedback, reviews, or survey data.
 
 ## Features
-
-- CSV Upload: Upload and preview datasets instantly.
-- Custom Analysis: Select specific columns for targeted sentiment and word cloud generation.
-- WordCloud Visualization: Dynamic word clouds with stopword removal and lemmatization.
-- Sentiment Analysis: Real-time sentiment scoring with VaderSentiment.
-- Interactive Charts: Visualize sentiment scores using Plotly.
-- Downloadable Reports: Export sentiment summaries as CSV files.
-- User-Friendly Interface: Easy-to-use Streamlit UI requiring no coding.
+- Upload and process CSV files with ease.
+- Dynamic WordCloud generation for selected data columns.
+- Sentiment analysis using Vader Sentiment Analyzer.
+- Interactive visualization of sentiment scores using Plotly.
+- Downloadable sentiment summary reports.
+- Fully interactive and user-friendly interface.
 
 ## Installation
 
-\`\`\`bash
+Follow these steps to set up and run the Customer Sentiment Analyzer locally:
+
+```bash
+# 1. Clone the repository
 git clone https://github.com/<your-username>/Customer-Sentiment-Analyzer.git
+
+# 2. Change to the project directory
 cd Customer-Sentiment-Analyzer
+
+# 3. Create a virtual environment
 python -m venv .venv
-# Activate venv:
-.venv\Scripts\activate   # Windows
-source .venv/bin/activate  # Mac/Linux
+```
+
+### Activate the virtual environment
+
+```bash
+# Windows
+.venv\Scripts\activate
+
+# macOS / Linux
+source .venv/bin/activate
+```
+
+### Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
+
+### Run the Streamlit app
+
+```bash
 streamlit run Customer_Sentiment_Analyzer.py
-\`\`\`
+```
 
-## Technologies & Libraries
-
-- Streamlit — Interactive web app deployment
-- NLTK — Natural language processing
-- WordCloud — Text visualization
-- VaderSentiment — Sentiment scoring
-- Matplotlib & Plotly — Data visualization
-- Pandas — Data manipulation
+## Usage
+1. Upload your CSV file containing textual data.
+2. Select columns for analysis in the sidebar.
+3. View generated WordClouds and sentiment scores.
+4. Download the sentiment summary CSV.
 
 ## Pro Tip for Recruiters / Collaborators
-
-This project exemplifies a complete machine learning and data visualization workflow — from data preprocessing and NLP feature engineering to interactive deployment via Streamlit. It highlights expertise in text processing, sentiment analysis, data visualization, and deployment readiness, making it a strong portfolio piece for roles in machine learning, data science, and AI engineering.
+This project exemplifies a complete machine learning and data visualization workflow; from data preprocessing and feature engineering to model development, evaluation, and deployment readiness. It highlights expertise in text processing, sentiment analysis, data visualization, and deployment readiness, making it a strong portfolio piece for roles in machine learning, data science, and AI engineering.
 
 ## Author
-
-**Sumayya Samreen — M.Sc. in Artificial Intelligence**
-Passionate about applied AI, model interpretability, and building real-world machine learning solutions.
+**Sumayya Samreen — M.Sc. in Artificial Intelligence** 
+Passionate about applied AI, model interpretability, and real-world machine learning solutions.
