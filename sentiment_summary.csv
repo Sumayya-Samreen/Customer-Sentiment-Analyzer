@@ -1,7 +1,1 @@
-Category,neg,neu,pos,compound
-Gas leakage alerts,0.236,0.394,0.37,0.5266
-Ease of replenishment,0.15,0.544,0.306,0.4878
-LPG Consumption monitoring,0.177,0.651,0.172,-0.0253
-Real time usage alert,0.0,0.358,0.642,0.9366
-Easy storage,0.155,0.504,0.341,0.513
-Price,0.12,0.427,0.453,0.5994
+sentiment_summary.csv
