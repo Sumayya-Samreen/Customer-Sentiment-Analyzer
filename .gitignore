@@ -38,8 +38,5 @@ Desktop.ini
 # Streamlit cache
 .streamlit/
 
-# CSV output files
-*.csv
-
 # Ignore requirements-full.txt if generated
 requirements-full.txt
