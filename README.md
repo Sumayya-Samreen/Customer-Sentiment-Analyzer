@@ -64,5 +64,5 @@ Try it here: https://customer-sentiment-analyzer-25.streamlit.app/
 This project exemplifies a complete machine learning and data visualization workflow; from data preprocessing and feature engineering to model development, evaluation, and deployment readiness. It highlights expertise in text processing, sentiment analysis, data visualization, and deployment readiness, making it a strong portfolio piece for roles in machine learning, data science, and AI engineering.
 
 ## Author
-**Sumayya Samreen — M.Sc. in Artificial Intelligence** 
-Passionate about applied AI, model interpretability, and real-world machine learning solutions.
+**Sumayya Samreen — M.Sc. in Artificial Intelligence**<br>
+Focused on applied NLP, interpretable analytics, and production-grade AI solutions.
